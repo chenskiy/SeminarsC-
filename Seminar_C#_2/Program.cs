@@ -78,6 +78,7 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 velure(number1, number2);
 */
 
+/*
 void Proverka(int num1, int num2, int num3)
 {
     if(num1 % num2 == 0 && num1 % num3 == 0)
@@ -99,3 +100,4 @@ Console.WriteLine("Введите третье число ");
 int check2 = Convert.ToInt32(Console.ReadLine());
 
 Proverka(number1, check1, check2);
+*/
