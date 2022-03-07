@@ -11,15 +11,18 @@ int number = new Random().Next(100,999);
 Console.WriteLine(number + " ---> " + Vex(number));
 */
 
-/* Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. */
+/* Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. 
 
-void A(int num)
+void AcDc(int num)
 {
+    while(num / 1000 > 0)
+    {
+        num = num /10;
+    }
     if(num > 99)
     {
-    
-        int b = num % 10;
-        Console.WriteLine(b);
+        num = num % 10;
+        Console.WriteLine(num);
     }
     else
     {
@@ -28,28 +31,8 @@ void A(int num)
 }
 Console.WriteLine("Введите число ");
 int number = Convert.ToInt32(Console.ReadLine());
-
-A(number);
-
-/*
-void A(int num)
-{
-    while(num % 1000 == 0)
-    {
-        int num = num / 10;
-    }
-    if(num > 99)
-    {
-        int b = num % 10;
-        Console.WriteLine(b);
-    }
-    else
-    {
-        Console.WriteLine("Третьей цифры нет");
-    }
-}
-Console.WriteLine("Введите число ");
-int number = Convert.ToInt32(Console.ReadLine());
-
-A(number);
+AcDc(number);
 */
+
+
+/* Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным. */
