@@ -49,7 +49,7 @@ else
 {
     Console.WriteLine("Такого дня недели не существует");
 }
-
+*/
 
 // 4 задача
 
@@ -62,4 +62,3 @@ while(neg_n <= n)
     Console.Write(neg_n + " ");
     neg_n++;
 }
-*/

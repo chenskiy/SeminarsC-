@@ -84,4 +84,3 @@ Console.Write("Input Y of point B: ");
 yB = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine(GetDistance(xA, yA, xB, yB));
-
