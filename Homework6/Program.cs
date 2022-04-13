@@ -13,7 +13,7 @@ for (int i = 0; i < size; i++)
 Console.Write($"---> {pos}");
 */
 // Задача 2: Пользователь вводит с клавиатуры кол-во строк и столбцов для массива. Вывести массив в виде матрицы, создав "рамку" из единиц, а внутреннюю зону матрицы заполнить нулями.
-
+/*
 void Array (int [,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
@@ -43,3 +43,4 @@ Console.WriteLine("Введите количество столбцов: ");
 int col = Convert.ToInt32(Console.ReadLine());
 int [,] Matrix = new int[row,col];
 Array(Matrix);
+*/
